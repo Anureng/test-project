@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #ffe4c4;
+    width: 100%;
+    height: 57rem;
+}
+.nav{
+    display: flex;
+
+width: 100%;
+}
+.nav ul{
+    padding: 23px 54px;
+
+}
+
+.nav img{
+    height: 78px;
+    width: 78px;
+    margin-left: 75rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#developer img{
+height: 34rem;
+width: auto;
+margin: 5rem;
+ border-radius: 20px;
+
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+#developer {
+    display: flex;
+    margin-left: 13rem;
+}
+#developer p{
+    font-size: 34px;
+    margin-top: 18rem;
+ }
+  button{
+    position: absolute;
+    left: 53rem;
+    top: 33rem;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color:#ffe4c4 ;
+}
+.about{
+    background-color:#e0dedb ;
+    
+    width: 100%;
+    height:57rem;
+}
+.about-img img{
+    height: 29rem;
+    width: 33rem;
+    /* margin: 5rem; */
+    margin-top: 12rem;
+    margin-left: 12rem;
+border-radius: 15px;
+border-left:9px solid #ebac4f ;
+border-bottom:9px solid #ebac4f; 
+position: relative;
+text-shadow: 30px 30px;
+}
+
+.about{
+    display: flex;
+}
+.about-line{
+    font-size: medium;
+    margin-top: 15rem;
+    margin-left: 20rem;
+}
+
+.about{
+    background-color:#e0dedb ;
+    
+    width: 100%;
+    height:57rem;
+}
+.about-img img{
+    height: 29rem;
+    width: 33rem;
+    /* margin: 5rem; */
+    margin-top: 12rem;
+    margin-left: 12rem;
+border-radius: 15px;
+border-left:9px solid #ebac4f ;
+border-bottom:9px solid #ebac4f; 
+position: relative;
+text-shadow: 30px 30px;
+}
+
+.about{
+    display: flex;
+}
+.about-line{
+    font-size: medium;
+    margin-top: 15rem;
+    margin-left: 20rem;
+}
+.project{
+    background-color: #ffe4c4 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project img{
+    margin: 65px;
+}
+.contact{
+    width: 100%;
+    height:58rem;
+    background-color: black;
+}
+.contact h1{
+    position: absolute;
+    top: 178rem;
+    left: 48rem;
+    color: white;
+}
+.contact .input_text{
+    position: absolute;
+    top: 183rem;
+    left: 48rem;
+    color: white;
+
+}
+.contact input{
+    padding: 12px;
+}
+.contact .input_email{
+    position: absolute;
+    top: 188rem;
+    left: 48rem;
+    color: white;
+}
+
+.contact textarea{
+    position: absolute;
+    top: 192rem;
+    left: 48rem;
+    color: white;
+    padding: 12px;
+}
+.submit_btn{
+    position: absolute;
+    left: 2rem;
+    top: 172rem;
+    font-size: 24px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+}
